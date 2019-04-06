@@ -318,6 +318,14 @@
                     <warName>petclinic</warName>
                 </configuration>
             </plugin>
+             </plugin>
+        <distributionManagement>
+            <snapshotRepository>
+            <id>petclinic</id>
+            <url>http://13.233.223.11:8081/repository/petclinic/</url>
+            </snapshotRepository>
+        </distributionManagement>
+             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-eclipse-plugin</artifactId>
